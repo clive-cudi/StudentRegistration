@@ -1,0 +1,14 @@
+[
+  {
+    "name": "john",
+    "id": "acc_12",
+    "usertype": "accountant",
+    "isVerified": true
+  },
+  {
+    "name": "doe",
+    "id": "student_23",
+    "usertype": "student",
+    "isVerified": true
+  }
+]

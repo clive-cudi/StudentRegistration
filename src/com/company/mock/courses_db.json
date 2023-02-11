@@ -1,0 +1,44 @@
+[
+  {
+    "id": "csc210",
+    "name": "Objected Oriented Programming",
+    "cost": 2200,
+    "onOffer": true,
+    "capacity": 22
+  },
+  {
+    "id": "csc211",
+    "name": "Database Management Systems",
+    "cost": 1600,
+    "onOffer": true,
+    "capacity": 50
+  },
+  {
+    "id": "csc212",
+    "name": "Assembly Language Programming",
+    "cost": 3000,
+    "onOffer": true,
+    "capacity": 20
+  },
+  {
+    "id": "csc213",
+    "name": "System Analysis and Design",
+    "cost": 1800,
+    "onOffer": true,
+    "capacity": 30
+  },
+  {
+    "id": "csc310",
+    "name": "Introduction to Computer Networks",
+    "cost": 1500,
+    "onOffer": true,
+    "capacity": 60
+  },
+  {
+    "id": "mth201",
+    "name": "Linear Algebra",
+    "cost": 2000,
+    "onOffer": true,
+    "capacity": 100
+  }
+]
