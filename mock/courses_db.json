@@ -40,5 +40,12 @@
     "cost": 2000,
     "onOffer": true,
     "capacity": 100
+  },
+  {
+    "id": "csc101",
+    "name": "Fundamentals of Computer Science",
+    "cost": 3000,
+    "onOffer": true,
+    "capacity": 20
   }
 ]

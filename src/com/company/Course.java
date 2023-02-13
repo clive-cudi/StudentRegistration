@@ -1,39 +1,51 @@
 package com.company;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import java.util.UUID;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Course {
-    private static String courseID;
-    private static String courseName;
-    private static double cost;
+    public String id;
+    public String name;
+    public double cost;
+    public boolean onOffer;
+    public static int capacity;
 
-    public Course(String name, double courseCost) {
-        courseID = UUID.randomUUID().toString();
-        courseName = name;
-        cost = courseCost;
+    public Course() {
+
     }
 
-    public static double changeCourseCost(double amount) {
+    public Course(String id, String name, double cost, boolean onOffer, int capacity) {
+        this.id = id;
+        this.name = name;
+        this.cost = cost;
+        this.onOffer = onOffer;
+        this.capacity = capacity;
+
+    }
+
+    public double changeCourseCost(double amount) {
         cost = amount;
 
-        return cost;
+        return this.cost;
     }
 
-    public static String changeCourseName(String newCourseName) {
-        courseName = newCourseName;
+    public String changeCourseName(String newCourseName) {
+        name = newCourseName;
 
-        return courseName;
+        return name;
     }
 
-    public static String getCourseID() {
-        return courseID;
+    public String getCourseID() {
+        return id;
     }
 
-    public static String getCourseName() {
-        return courseName;
+    public String getCourseName() {
+        return name;
     }
 
-    public static double getCost() {
+    public double getCost() {
         return cost;
     }
 }
